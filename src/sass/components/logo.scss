@@ -1,0 +1,25 @@
+.logo {
+    animation: logofade 1.2s backwards ease;
+}
+
+.outer {
+    fill: #b5cfd8;
+}
+
+.octagon {
+    fill: #7393a7;
+    stroke-width: 2px;
+    animation: inner 2s ease backwards;
+    animation-delay: 0.5s;
+}
+
+.one {
+    stroke: red;
+}
+
+.line {
+    stroke: white;
+    stroke-dasharray: 893;
+    animation: logo 3s ease backwards;
+    animation-delay: 0.7s;
+}

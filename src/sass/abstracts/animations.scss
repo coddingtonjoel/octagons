@@ -1,0 +1,26 @@
+@keyframes logo {
+    from {
+        stroke-dashoffset: -893;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes inner {
+    from {
+        transform: translate(-30px, -10px);
+    }
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes logofade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
