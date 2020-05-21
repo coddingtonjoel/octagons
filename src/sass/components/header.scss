@@ -3,8 +3,9 @@
     position: relative;
     top: 0;
     left: 0;
-    height: 200rem;
+    height: 180rem;
     clip-path: ellipse(100% 45% at 50% 0%);
+    overflow: hidden;
 
     &-logo {
         position: absolute;
@@ -12,6 +13,90 @@
         left: 2rem;
         width: 30rem;
         height: 30rem;
+    }
+
+    &-text {
+        position: absolute;
+        top: 19%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        & h1 {
+            font-size: 9rem;
+            margin-bottom: 4rem;
+        }
+
+        & p {
+            font-size: 2.8rem;
+        }
+    }
+
+    &-plus {
+        height: 4rem;
+        width: 4rem;
+        position: absolute;
+        transform-origin: center;
+
+        &-1 {
+            transform: translate(30vw, 20rem) scale(1.3);
+            opacity: 0.2;
+            animation: plus 8s ease infinite backwards;
+            animation-delay: 2s;
+        }
+
+        &-2 {
+            transform: translate(12vw, 40rem);
+            opacity: 0.4;
+            animation: plus 10s ease infinite backwards;
+            animation-delay: 4s;
+        }
+
+        &-3 {
+            transform: translate(25vw, 55rem) scale(0.9);
+            opacity: 0.3;
+            animation: plus 6s ease infinite backwards;
+            animation-delay: 4s;
+        }
+
+        &-4 {
+            transform: translate(40vw, 65rem) scale(1.1);
+            opacity: 0.4;
+            animation: plus 8s ease infinite backwards;
+            animation-delay: 5s;
+        }
+
+        &-5 {
+            transform: translate(60vw, 58rem) scale(0.8);
+            opacity: 0.3;
+            animation: plus 10s ease infinite backwards;
+            animation-delay: 2s;
+        }
+
+        &-6 {
+            transform: translate(75vw, 50rem) scale(1.2);
+            opacity: 0.5;
+            animation: plus 10s ease infinite backwards;
+            animation-delay: 5s;
+        }
+
+        &-7 {
+            transform: translate(68vw, 20rem);
+            opacity: 0.2;
+            animation: plus 7s ease infinite backwards;
+            animation-delay: 3s;
+        }
+
+        &-8 {
+            transform: translate(85vw, 35rem) scale(0.7);
+            opacity: 0.3;
+            animation: plus 12s ease infinite backwards;
+            animation-delay: 4s;
+        }
+    }
+
+    &-spread {
+        position: absolute;
     }
 }
 
@@ -28,5 +113,14 @@
         font-size: 2rem;
         text-transform: lowercase;
         margin-right: 3rem;
+        border-bottom: 2px solid white;
     }
+}
+
+.plus {
+    fill: none;
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-width: 60px;
 }
