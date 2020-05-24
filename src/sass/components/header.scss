@@ -3,9 +3,8 @@
     position: relative;
     top: 0;
     left: 0;
-    height: 180rem;
-    clip-path: ellipse(100% 45% at 50% 0%);
-    overflow: hidden;
+    height: 80rem;
+    clip-path: ellipse(100% 95% at 50% 0%);
 
     &-logo {
         position: absolute;
@@ -17,7 +16,7 @@
 
     &-text {
         position: absolute;
-        top: 19%;
+        top: 42%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
