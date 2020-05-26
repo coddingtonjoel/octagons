@@ -1,6 +1,7 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import person from "../images/person.svg";
+import cloud from "../images/cloud.svg";
 
 const LandingInfo = () => {
     return (
@@ -32,7 +33,7 @@ const LandingInfo = () => {
                 <ScrollAnimation
                     animateIn="fadeInUp"
                     duration="1.5"
-                    delay="1000"
+                    delay="500"
                     animateOnce="true">
                     <p>
                         In light of COVID-19’s effects on small businesses,
@@ -62,6 +63,27 @@ const LandingInfo = () => {
                     delay="500">
                     <div className="heading-container">
                         <h3 className="heading">what we offer</h3>
+                    </div>
+                </ScrollAnimation>
+                <ScrollAnimation
+                    animateIn="fadeInUp"
+                    duration="1.5"
+                    animateOnce="true"
+                    delay="500">
+                    <div className="info-what-cloud-container">
+                        <img className="info-what-cloud" src={cloud} alt="" />
+                    </div>
+                </ScrollAnimation>
+                <ScrollAnimation
+                    animateIn="fadeInUp"
+                    duration="1.5"
+                    animateOnce="true"
+                    delay="500">
+                    <div className="info-what-sub-container">
+                        <p className="info-what-sub">
+                            And we offer all our business support for{" "}
+                            <span>free</span> — no strings attached.
+                        </p>
                     </div>
                 </ScrollAnimation>
             </div>

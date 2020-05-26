@@ -1,0 +1,44 @@
+.contact {
+    background-color: #6c737e;
+    height: 65rem;
+    clip-path: ellipse(100% 95% at 50% 100%);
+    padding-top: 8rem;
+    position: relative;
+
+    &-text {
+        margin-top: 8rem;
+
+        & p {
+            margin: 4rem 0;
+            font-size: 2.5rem;
+        }
+
+        &-email {
+            font-size: 3.5rem !important;
+        }
+    }
+
+    &-copyright {
+        opacity: 0.45;
+        margin-top: 12rem;
+        font-size: 1.4rem;
+    }
+}
+
+.scroll {
+    position: absolute;
+    bottom: 5rem;
+    right: 5rem;
+    height: 7rem;
+    width: 7rem;
+
+    & img {
+        height: 7rem;
+        width: 7rem;
+        transition: 0.3s;
+
+        &:hover {
+            filter: brightness(75%);
+        }
+    }
+}
