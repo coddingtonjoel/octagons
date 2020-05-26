@@ -1,25 +1,29 @@
 import React from "react";
 import Logo from "./Logo";
 import Plus from "./Plus";
+import MediaQuery from "react-responsive";
 
 const Header = () => {
     return (
         <header className="header">
-            <div className="navbar">
-                <a
-                    className="btn-flat waves-effect waves-light white-text"
-                    href="#!">
-                    about us
-                </a>
-                <a
-                    className="btn-flat waves-effect waves-light white-text"
-                    href="#!">
-                    contact
-                </a>
-            </div>
-            <div className="header-logo">
-                <Logo />
-            </div>
+            <MediaQuery minDeviceWidth={701}>
+                <div className="header-logo">
+                    <Logo />
+                </div>
+                <div className="navbar">
+                    <a
+                        className="btn-flat waves-effect waves-light white-text"
+                        href="#!">
+                        about us
+                    </a>
+                    <a
+                        className="btn-flat waves-effect waves-light white-text"
+                        href="#!">
+                        contact
+                    </a>
+                </div>
+            </MediaQuery>
+
             <div className="header-text">
                 <h1 className="header-main white-text">octagons</h1>
                 <p className="header-sub white-text">

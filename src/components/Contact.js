@@ -1,5 +1,6 @@
 import React from "react";
 import scroll from "../images/scroll.svg";
+import MediaQuery from "react-responsive";
 
 const Contact = () => {
     const toTop = () => {
@@ -25,9 +26,11 @@ const Contact = () => {
             <div className="contact-copyright white-text center">
                 <p>Octagons© 2020</p>
             </div>
-            <a onClick={toTop} href="#!" className="scroll">
-                <img src={scroll} alt="" />
-            </a>
+            <MediaQuery minDeviceWidth={701}>
+                <a onClick={toTop} href="#!" className="scroll">
+                    <img src={scroll} alt="" />
+                </a>
+            </MediaQuery>
         </div>
     );
 };

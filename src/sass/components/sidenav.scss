@@ -1,0 +1,44 @@
+.sidenav-trigger {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    z-index: 10;
+    height: 5rem;
+    width: 5rem;
+
+    @media (max-width: 500px) {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    @media (max-width: 400px) {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    & img {
+        height: 5rem;
+        width: 5rem;
+
+        @media (max-width: 500px) {
+            height: 4rem;
+            width: 4rem;
+        }
+
+        @media (max-width: 400px) {
+            height: 3.5rem;
+            width: 3.5rem;
+        }
+    }
+}
+
+.sidenav > li > a {
+    font-size: 2.3rem !important;
+    text-align: center;
+}
+
+.sidenav-logo {
+    height: 20rem;
+    width: 20rem;
+    margin: 3rem auto;
+}

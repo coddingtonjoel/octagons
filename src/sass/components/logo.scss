@@ -20,7 +20,7 @@
 
 .line {
     stroke: white;
-    stroke-dasharray: 893;
+    stroke-dasharray: 893 893;
     animation: logo 3s ease backwards;
     animation-delay: 0.7s;
 }

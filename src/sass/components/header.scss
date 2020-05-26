@@ -6,12 +6,47 @@
     height: 80rem;
     clip-path: ellipse(100% 95% at 50% 0%);
 
+    @media (max-width: 800px) {
+        height: 65rem;
+    }
+
+    @media (max-width: 650px) {
+        clip-path: ellipse(125% 95% at 50% 0%);
+    }
+
+    @media (max-width: 500px) {
+        height: 55rem;
+    }
+
+    @media (max-width: 450px) {
+        clip-path: ellipse(150% 95% at 50% 0%);
+    }
+
+    @media (max-width: 380px) {
+        clip-path: ellipse(170% 95% at 50% 0%);
+    }
+
     &-logo {
         position: absolute;
         top: 2rem;
         left: 2rem;
         width: 30rem;
         height: 30rem;
+
+        @media (max-width: 1000px) {
+            height: 20rem;
+            width: 20rem;
+        }
+
+        @media (max-width: 800px) {
+            height: 15rem;
+            width: 15rem;
+        }
+
+        @media (max-width: 700px) {
+            height: 12rem;
+            width: 12rem;
+        }
     }
 
     &-text {
@@ -21,13 +56,37 @@
         transform: translate(-50%, -50%);
         text-align: center;
 
+        @media (max-width: 800px) {
+            width: 80%;
+        }
+
+        @media (max-width: 700px) {
+            top: 38%;
+        }
+
         & h1 {
             font-size: 9rem;
             margin-bottom: 4rem;
+
+            @media (max-width: 800px) {
+                font-size: 10rem;
+            }
+
+            @media (max-width: 650px) {
+                font-size: 8rem;
+            }
         }
 
         & p {
             font-size: 2.8rem;
+
+            @media (max-width: 800px) {
+                font-size: 3.5rem;
+            }
+
+            @media (max-width: 650px) {
+                font-size: 2.6rem;
+            }
         }
     }
 
@@ -36,6 +95,10 @@
         width: 4rem;
         position: absolute;
         transform-origin: center;
+
+        @media (max-width: 800px) {
+            visibility: hidden;
+        }
 
         &-1 {
             transform: translate(30vw, 20rem) scale(1.3);
@@ -108,11 +171,26 @@
     justify-content: center;
     padding: 3rem 6rem;
 
+    @media (max-width: 900px) {
+        padding: 3rem;
+    }
+
     & a {
         font-size: 2rem;
+        height: 3.5rem;
         text-transform: lowercase;
         margin-right: 3rem;
         border-bottom: 2px solid white;
+
+        @media (max-width: 1200px) {
+            font-size: 2.5rem;
+            height: 4.2rem;
+        }
+
+        @media (max-width: 900px) {
+            font-size: 3rem;
+            height: 5rem;
+        }
     }
 }
 
