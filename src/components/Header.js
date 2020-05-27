@@ -13,12 +13,12 @@ const Header = () => {
                 <div className="navbar">
                     <a
                         className="btn-flat waves-effect waves-light white-text"
-                        href="#!">
+                        href="/about">
                         about us
                     </a>
                     <a
                         className="btn-flat waves-effect waves-light white-text"
-                        href="#!">
+                        href="/contact">
                         contact
                     </a>
                 </div>

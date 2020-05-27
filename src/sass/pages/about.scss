@@ -1,0 +1,16 @@
+.about-page {
+    &-header {
+        height: 23rem;
+        background-color: #6c737e;
+        position: relative;
+        padding: 0 5rem;
+        margin: auto;
+
+        & div {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

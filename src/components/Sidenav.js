@@ -24,12 +24,17 @@ const Sidenav = () => {
                         <img src={logo} alt="" />
                     </li>
                     <li>
-                        <a className="waves-effect" href="#!">
+                        <a href="/" className="waves-effect">
+                            home
+                        </a>
+                    </li>
+                    <li>
+                        <a className="waves-effect" href="/about">
                             about us
                         </a>
                     </li>
                     <li>
-                        <a className="waves-effect" href="#!">
+                        <a className="waves-effect" href="/contact">
                             contact
                         </a>
                     </li>
