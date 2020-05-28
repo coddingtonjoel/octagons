@@ -12,5 +12,33 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
+
+        & img {
+            position: absolute;
+            top: 50%;
+            left: 8%;
+            transform: translate(-50%, -50%);
+            height: 20rem;
+        }
     }
+
+    &-body {
+        padding: 0 8%;
+
+        & h3 {
+            margin-top: 7rem;
+        }
+
+        &-team {
+        }
+    }
+}
+
+.stripe {
+    height: 80%;
+    width: 100vw;
+    position: absolute;
+    background-color: #6c737e;
+    opacity: 0.08;
+    z-index: -1;
 }

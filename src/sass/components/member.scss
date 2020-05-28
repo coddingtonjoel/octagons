@@ -1,0 +1,33 @@
+.member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7rem 0;
+    position: relative;
+
+    &-info {
+        background-color: #b5cfd8;
+        padding: 1.7%;
+        text-align: center;
+    }
+
+    & img {
+        height: 25rem;
+    }
+
+    &-name {
+        font-size: 3.5rem;
+    }
+
+    &-title {
+        font-size: 1.5rem;
+    }
+
+    &-desc {
+        margin-left: 8rem;
+        color: #6c737e;
+        font-size: 2.1rem;
+        width: 50%;
+        line-height: 1.8;
+    }
+}
