@@ -11,7 +11,6 @@ const Member = (props) => {
             <div className="member-desc">
                 <p>{props.desc}</p>
             </div>
-            <div className="stripe"></div>
         </div>
     );
 };

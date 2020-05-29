@@ -26,6 +26,7 @@ const About = () => {
                                 title={member.title}
                                 img={member.img}
                                 desc={member.desc}
+                                key={member.name}
                             />
                         );
                     })}
