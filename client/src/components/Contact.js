@@ -33,7 +33,7 @@ const Contact = () => {
             </div>
         );
 
-        fetch("https://octagons.herokuapp.com/send", {
+        fetch("https://octagons-node.herokuapp.com/send", {
             //fetch("http://localhost:5000/send", {
             method: "POST",
             headers: {
