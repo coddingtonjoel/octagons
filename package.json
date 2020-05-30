@@ -1,15 +1,20 @@
 {
-  "name": "octagons",
-  "version": "1.0.0",
-  "description": "server",
-  "main": "index.js",
-  "repository": "https://github.com/coddingtonjoel/octagons.git",
-  "author": "Joel Coddington <coddingtonjoel@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "nodemailer": "^6.4.8",
-    "nodemon": "^2.0.4"
-  }
+    "name": "octagons",
+    "version": "1.0.0",
+    "description": "server",
+    "main": "index.js",
+    "repository": "https://github.com/coddingtonjoel/octagons.git",
+    "author": "Joel Coddington <coddingtonjoel@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "nodemailer": "^6.4.8"
+    },
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
 }

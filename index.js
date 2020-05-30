@@ -22,10 +22,10 @@ app.post("/send", (req, res) => {
 
     //regular build
     output = `
-        <h2>New Build Request</h2>
+        <h2>New Octagons Message</h2>
             <p>Name: ${req.body.user.name}</p>
             <p>Email: ${req.body.user.email}</p>
-            <p>Message: <br/>${req.body.user.message}
+            <br/><p>${req.body.user.message}<br/><br/>
             <br/><br/><em>This is an automated email from octagons.org.</em>`;
 
     // async..await is not allowed in global scope, must use a wrapper

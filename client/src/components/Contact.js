@@ -4,9 +4,9 @@ import MediaQuery from "react-responsive";
 
 const Contact = () => {
     const [submit, setSubmit] = useState("send message");
-    const [name, setName] = useState(0);
-    const [email, setEmail] = useState(0);
-    const [message, setMessage] = useState(0);
+    const [name, setName] = useState("Error");
+    const [email, setEmail] = useState("Error");
+    const [message, setMessage] = useState("Error");
 
     const toTop = () => {
         window.scrollTo({
