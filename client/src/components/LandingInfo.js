@@ -50,14 +50,13 @@ const LandingInfo = () => {
                             </p>
                             <br />
                             <p>
-                                Octagons is a full-service, student-run
-                                marketing & advertising agency based in the
-                                United States. We’re a diverse group of creative
-                                and passionate storytellers from the business,
-                                advertising, and technology fields coming
-                                together to deliver inventive marketing
-                                campaigns, from research to strategy to
-                                execution.
+                                Octagons is a full-service, Gen-Z run marketing
+                                & advertising agency based in the United States.
+                                We’re a diverse group of creative and passionate
+                                storytellers from the business, advertising, and
+                                technology fields coming together to deliver
+                                inventive marketing campaigns, from research to
+                                strategy to execution.
                             </p>
                         </ScrollAnimation>
                     </div>

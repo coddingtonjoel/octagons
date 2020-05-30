@@ -12,14 +12,14 @@ const Header = () => {
                 </div>
                 <div className="navbar">
                     <a
-                        className="btn-flat waves-effect waves-light white-text"
-                        href="/about">
-                        about us
+                        className="btn-flat waves-effect waves-light white-text navbar-home"
+                        href="/">
+                        home
                     </a>
                     <a
                         className="btn-flat waves-effect waves-light white-text"
-                        href="/contact">
-                        contact
+                        href="/about">
+                        about us
                     </a>
                 </div>
             </MediaQuery>
