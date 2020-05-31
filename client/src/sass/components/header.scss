@@ -175,15 +175,12 @@
         padding: 3rem;
     }
 
-    &-home {
-        border-bottom: 2px solid white;
-    }
-
     & a {
         font-size: 2rem;
         height: 4rem;
         text-transform: lowercase;
         margin-right: 3rem;
+        border-bottom: 2px solid white;
 
         @media (max-width: 1200px) {
             font-size: 2.5rem;
