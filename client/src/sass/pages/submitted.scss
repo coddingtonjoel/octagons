@@ -1,0 +1,72 @@
+.submitted {
+    height: 100rem;
+    background-color: #6c737e;
+    top: 0;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+    & img {
+        position: absolute;
+        height: 40rem;
+        width: 40rem;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        @media (max-width: 500px) {
+            top: 30%;
+            height: 30rem;
+            width: 30rem;
+        }
+    }
+
+    &-text {
+        width: 90vw;
+    }
+
+    &-head {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        color: white;
+        font-size: 5rem;
+
+        @media (max-width: 348px) {
+            font-size: 4rem;
+        }
+    }
+
+    &-sub {
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        color: white;
+        font-size: 2.8rem;
+
+        @media (max-width: 792px) {
+            top: 60%;
+            font-size: 2.3rem;
+        }
+
+        @media (max-width: 348px) {
+            font-size: 2rem;
+        }
+    }
+
+    & a:link,
+    & a:visited {
+        color: white;
+        text-decoration: none;
+        border: 2px solid white;
+        padding: 1rem 2rem;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        color: white;
+        font-size: 2rem;
+    }
+}

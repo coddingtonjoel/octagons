@@ -6,6 +6,7 @@ import LandingInfo from "./components/LandingInfo";
 import Contact from "./components/Contact";
 import Sidenav from "./components/Sidenav";
 import About from "./pages/About";
+import Submitted from "./pages/Submitted";
 
 const App = () => {
     return (
@@ -28,6 +29,12 @@ const App = () => {
                     exact
                     path={process.env.PUBLIC_URL + "/about"}
                     component={About}
+                />
+
+                <Route
+                    exact
+                    path={process.env.PUBLIC_URL + "/submitted"}
+                    component={Submitted}
                 />
             </Switch>
         </BrowserRouter>

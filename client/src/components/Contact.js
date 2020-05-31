@@ -33,30 +33,30 @@ const Contact = () => {
             </div>
         );
 
-        fetch("https://octagons-node.herokuapp.com/send", {
-            //fetch("http://localhost:5000/send", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Access-Control-Allow-Origin": "*",
-            },
-            body: JSON.stringify({
-                user: {
-                    name: name,
-                    email: email,
-                    message: message,
-                },
-            }),
-        })
-            .then((res) => {
-                console.log(res);
-                return res.json();
-            })
-            .then((json) => console.log(json))
-            .catch((a) => {
-                console.log("Email Send Attempted . . .");
-                window.location.href = "/submitted";
-            });
+        // fetch("https://octagons-node.herokuapp.com/send", {
+        //     //fetch("http://localhost:5000/send", {
+        //     method: "POST",
+        //     headers: {
+        //         "Content-Type": "application/json",
+        //         "Access-Control-Allow-Origin": "*",
+        //     },
+        //     body: JSON.stringify({
+        //         user: {
+        //             name: name,
+        //             email: email,
+        //             message: message,
+        //         },
+        //     }),
+        // })
+        //     .then((res) => {
+        //         console.log(res);
+        //         return res.json();
+        //     })
+        //     .then((json) => console.log(json))
+        //     .catch((a) => {
+        //         console.log("Email Send Attempted . . .");
+        //         window.location.href = "/submitted";
+        //     });
     };
 
     return (
