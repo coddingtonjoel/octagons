@@ -54,14 +54,10 @@
         color: #6c737e;
         font-size: 2.1rem;
         width: 50%;
-        line-height: 1.8;
+        line-height: 1.6;
 
         @media (max-width: 1522px) {
             font-size: 1.9rem;
-        }
-
-        @media (max-width: 1376px) {
-            line-height: 1.6;
         }
 
         @media (max-width: 1092px) {
