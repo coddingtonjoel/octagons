@@ -33,11 +33,6 @@ const Sidenav = () => {
                             about us
                         </a>
                     </li>
-                    <li>
-                        <a className="waves-effect" href="/contact">
-                            contact
-                        </a>
-                    </li>
                 </ul>
             </MediaQuery>
         </Fragment>
