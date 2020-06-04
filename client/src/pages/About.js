@@ -56,12 +56,14 @@ const About = () => {
                     <h3 className="heading mission">mission and vision</h3>
                 </div>
                 <p className="about-page-text center">
-                    Octagon's mission is to aid small businesses affected by
-                    COVID-19 in reclaiming their digital platform by providing
-                    diverse expertise in the digital landscape. To achieve this
-                    mission, we find small businesses and help them to unleash
-                    their digital potential so they can pave a new path towards
-                    growth in a diverse and competitive market.
+                    Our mission is to aid small businesses affected by COVID-19
+                    in reclaiming their digital platform by providing diverse
+                    expertise in the digital landscape.
+                    <br />
+                    <br />
+                    Our vision is to help small businesses unleash their digital
+                    potential to pave the way towards long-term growth in a
+                    diverse and competitive market.
                 </p>
                 <div className="heading-container">
                     <h3 className="heading">our values</h3>
