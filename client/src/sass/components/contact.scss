@@ -83,20 +83,6 @@
         }
     }
 
-    &-copyright {
-        opacity: 0.45;
-        margin-top: 6rem;
-        font-size: 1.4rem;
-
-        @media (max-width: 674px) {
-            margin-top: 4rem;
-        }
-
-        @media (max-width: 470px) {
-            margin-top: 5rem;
-        }
-    }
-
     &-form {
         margin-top: 6rem;
 

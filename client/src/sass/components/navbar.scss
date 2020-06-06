@@ -1,0 +1,69 @@
+@import "../abstracts/variables.scss";
+
+.navbar {
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 10rem;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 3rem 6rem;
+    box-shadow: $box-shadow;
+    opacity: 0.9;
+
+    @media (max-width: 900px) {
+        padding: 3rem;
+    }
+
+    &-logo {
+        position: absolute;
+        top: 50%;
+        left: 2rem;
+        transform: translateY(-50%);
+        width: 9rem;
+        height: 9rem;
+        z-index: 10;
+
+        &-anchor:link,
+        &-anchor:visited {
+            color: white;
+            text-decoration: none;
+        }
+
+        & p {
+            font-size: 3rem;
+            position: absolute;
+            left: 4rem;
+            top: 50%;
+            left: 11rem;
+            letter-spacing: 8px;
+            transform: translateY(-50%);
+        }
+    }
+
+    &-links {
+        display: flex;
+        position: absolute;
+        right: 2%;
+    }
+
+    & a {
+        font-size: 2rem;
+        height: 4rem;
+        text-transform: lowercase;
+        margin-right: 3rem;
+        border-bottom: 2px solid white;
+
+        @media (max-width: 1200px) {
+            font-size: 2.5rem;
+            height: 4.2rem;
+        }
+
+        @media (max-width: 900px) {
+            font-size: 2.2rem;
+            height: 4.4rem;
+        }
+    }
+}

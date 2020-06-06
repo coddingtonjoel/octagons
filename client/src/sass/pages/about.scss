@@ -65,7 +65,7 @@
         overflow: hidden;
 
         & h3 {
-            margin-top: 7rem;
+            margin: 5rem 0;
         }
     }
 
@@ -91,13 +91,18 @@
             @media (max-width: 1000px) {
                 text-align: center;
             }
+
+            &-container {
+                margin-bottom: 8rem;
+            }
         }
     }
 }
 
 ul.about-page-text {
     @media (max-width: 1600px) {
-        margin: 8rem 0 0;
+        margin: 0;
+        margin-bottom: 10rem;
     }
 
     & li {

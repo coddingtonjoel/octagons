@@ -81,7 +81,7 @@ const Contact = () => {
                             placeholder="Full Name"
                             required
                         />
-                        <label for="name">name*</label>
+                        <label htmlFor="name">name*</label>
                     </div>
                     <div className="input-field">
                         <input
@@ -94,7 +94,7 @@ const Contact = () => {
                             placeholder="e.g. hello@contact.net"
                             required
                         />
-                        <label for="email">email*</label>
+                        <label htmlFor="email">email*</label>
                     </div>
                     <div className="input-field">
                         <textarea
@@ -104,7 +104,7 @@ const Contact = () => {
                             id="message"
                             className="materialize-textarea contact-form-message"
                             placeholder="Your Message Here"></textarea>
-                        <label for="message">message*</label>
+                        <label htmlFor="message">message*</label>
                     </div>
                 </div>
 
@@ -112,9 +112,6 @@ const Contact = () => {
                     <button className="contact-form-button">{submit}</button>
                 </div>
             </form>
-            <div className="contact-copyright white-text center">
-                <p>Octagons© 2020</p>
-            </div>
             <MediaQuery minDeviceWidth={701}>
                 <a onClick={toTop} href="#!" className="scroll">
                     <img src={scroll} alt="" />

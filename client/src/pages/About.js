@@ -1,15 +1,9 @@
 import React from "react";
-import logo from "../images/Octagons.svg";
-import Member from "../components/Member";
-import members from "../members";
 
 const About = () => {
     return (
         <div className="about-page">
             <div className="about-page-header">
-                <a href="/">
-                    <img src={logo} alt="" />
-                </a>
                 <div className="heading-container">
                     <h3 className="heading-white">about octagons</h3>
                 </div>
@@ -68,7 +62,7 @@ const About = () => {
                 <div className="heading-container">
                     <h3 className="heading">our values</h3>
                 </div>
-                <ul className="about-page-text center">
+                <ul className="about-page-text-value-container about-page-text center">
                     <li>
                         <div>
                             <span className="about-page-text-large">
@@ -114,22 +108,6 @@ const About = () => {
                         </div>
                     </li>
                 </ul>
-                <div className="about-page-body-team">
-                    <div className="heading-container">
-                        <h3 className="heading">our team</h3>
-                    </div>
-                    {members.map((member) => {
-                        return (
-                            <Member
-                                name={member.name}
-                                title={member.title}
-                                img={member.img}
-                                desc={member.desc}
-                                key={member.name}
-                            />
-                        );
-                    })}
-                </div>
             </div>
         </div>
     );

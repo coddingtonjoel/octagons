@@ -7,12 +7,14 @@
 
 @import "./base/reset.scss";
 
+@import "./components/navbar.scss";
 @import "./components/header.scss";
 @import "./components/logo.scss";
 @import "./components/landinginfo.scss";
 @import "./components/contact.scss";
 @import "./components/sidenav.scss";
 @import "./components/member.scss";
+@import "./components/footer.scss";
 
 @import "./pages/about.scss";
 @import "./pages/submitted.scss";
