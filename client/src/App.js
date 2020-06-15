@@ -10,6 +10,7 @@ import About from "./pages/About";
 import Submitted from "./pages/Submitted";
 import Team from "./pages/Team";
 import Footer from "./components/Footer";
+import Projects from "./pages/Projects";
 
 const App = () => {
     return (
@@ -33,6 +34,12 @@ const App = () => {
                     exact
                     path={process.env.PUBLIC_URL + "/about"}
                     component={About}
+                />
+
+                <Route
+                    exact
+                    path={process.env.PUBLIC_URL + "/projects"}
+                    component={Projects}
                 />
 
                 <Route

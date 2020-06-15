@@ -15,13 +15,18 @@ const Navbar = () => {
                 <div className="navbar-links">
                     <a
                         className="btn-flat waves-effect waves-light white-text"
-                        href="/about">
-                        about us
+                        href="/projects">
+                        our work
                     </a>
                     <a
                         className="btn-flat waves-effect waves-light white-text"
                         href="/team">
                         our team
+                    </a>
+                    <a
+                        className="btn-flat waves-effect waves-light white-text"
+                        href="/about">
+                        about us
                     </a>
                 </div>
             </div>

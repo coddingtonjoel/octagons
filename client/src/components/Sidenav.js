@@ -29,13 +29,18 @@ const Sidenav = () => {
                         </a>
                     </li>
                     <li>
-                        <a className="waves-effect" href="/about">
-                            about us
+                        <a className="waves-effect" href="/projects">
+                            our work
                         </a>
                     </li>
                     <li>
                         <a className="waves-effect" href="/team">
                             our team
+                        </a>
+                    </li>
+                    <li>
+                        <a className="waves-effect" href="/about">
+                            about us
                         </a>
                     </li>
                 </ul>
