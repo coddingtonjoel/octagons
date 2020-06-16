@@ -2,7 +2,6 @@ import tyche from "./images/tyche_gami/logo.png";
 import tyche1 from "./images/tyche_gami/img1.jpg";
 import tyche2 from "./images/tyche_gami/img2.jpg";
 import tyche3 from "./images/tyche_gami/img3.jpg";
-import tycheSrc from "./static/Tyche_Gami_Playbook.pdf";
 
 const projectlist = [
     {
@@ -15,7 +14,6 @@ const projectlist = [
         img1: tyche1,
         img2: tyche2,
         img3: tyche3,
-        projectSrc: tycheSrc,
     },
 ];
 
