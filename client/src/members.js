@@ -54,7 +54,7 @@ const members = [
         title: "Creative Strategy",
         img: shivani,
         desc:
-            "Shivani Singh is an Advertising major with a focus in Immersive Technology at the University of Texas at Austin. When she isn’t creating digital marketing content for Octagons, you can find Shiv cooking up healthy recipes, creating DIY skincare, or on a run.",
+            "Shivani Singh is a rising senior at the University of Texas at Austin majoring in Advertising with a specialization in Immersive Technology. She is a passionate storyteller looking to create user experiences that blend physical and digital interaction. With experience in branding, digital marketing, and audience development, Shivani hopes to help businesses tell their stories and better connect with their consumers.",
     },
 ];
 
