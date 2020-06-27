@@ -40,7 +40,7 @@ const members = [
         title: "Web Development",
         img: joel,
         desc:
-            "Joel Coddington is a Computer Science major at Biola University. While passionate and self-motivated about frontend web development and graphic design, Joel is also a Coding Instructor at Coding Minds Academy, where he teaches a course on the Python programming language.",
+            "Joel is a sophomore at Biola University, studying towards a B.S. in Computer Science. Along with being passionate and self-motivated to learn more about frontend web development and graphic design, he is a creative thinker who always aims to make beautiful work.",
     },
     {
         name: "Nafisa Nazeer",
