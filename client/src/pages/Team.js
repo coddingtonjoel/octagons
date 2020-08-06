@@ -7,7 +7,9 @@ const Team = () => {
         <Fragment>
             <div className="about-page-header">
                 <div className="heading-container">
-                    <h3 className="heading-white">our team</h3>
+                    <h3 className="heading-white">
+                        our team (last updated: 8/20)
+                    </h3>
                 </div>
             </div>
             <div className="about-page-body-team">
