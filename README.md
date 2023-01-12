@@ -8,4 +8,4 @@ Octagons is a full-service, Gen Z-run marketing & advertising agency based in th
 
 ---
 
-Built with React and Materialize CSS and hosted at [octagons.org](https://octagons.org).
+Built with React and Materialize CSS and hosted at [octagons.org](https://octagons.netlify.app).
